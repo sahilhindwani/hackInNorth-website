@@ -106,6 +106,33 @@ p{
 
 }
 
+.map-home {
+	float:right;
+	position:relative;
+	height:70%;
+	width:70%;
+	padding-top:5%;
+	padding-right:5%;
+}
+
+#map-canvas {
+	height:100%;
+	width:100%;
+	border-radius:20px;
+}
+
+.contact-details {
+	display:inline-block;
+	float:right;
+	width:70%;
+	padding-top:2%;
+	padding-right:5%;
+}
+
+.contact-details p{
+	font-size:20px;
+}
+
 @keyframes rock {
   0% {
     transform: rotate(-2deg);
